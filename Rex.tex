@@ -1,22 +1,82 @@
 \documentclass[a4paper]{report}
 \usepackage[utf8]{inputenc}  
 \usepackage[T1]{fontenc}  
+
 \renewcommand{\chaptername}{}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[a4paper]{geometry}
+\geometry{hscale=0.85,vscale=0.85,centering}
+
 \begin{document}
 \chapter{Introduction}
 \section{Objet du document}
+
 Ce document est le Manuel Utilisateur de l’application informatique GESICO destinée aux clients de SNCF Réseau. GESICO est l’application de gestion des sillons commandés. Ce manuel décrit les fonctionnalités disponibles pour gérer et suivre les commandes de sillons.
 
 \section{Terminologie et Abréviations}	
-\begin{tabular}{|l|r|}
-	\hline
-	CH & code \textbf{CH}antier \\
-	\hline
-	1.1 & 1.2 \\
-	\hline
-	2.1 & 2.2 \\
-	\hline
-\end{tabular}
+\begin{table}[h]
+	\begin{tabular}{|l|l|}
+		\hline
+		CH & code \textbf{CH}antier \\
+		\hline
+		CI & \textbf{C}ode \textbf{I}nfrastructure \\
+		\hline
+		DS & \textbf{D}emande au \textbf{S}ervice \\
+		\hline
+		DSA & \textbf{D}emande au \textbf{S}ervice \textbf{A}daptation 
+		\\
+		\hline
+		DRR & \textbf{D}ocument\textbf{ }de\textbf{ R}éférence du 
+		\textbf{R}éseau \\
+		\hline
+		DTS & \textbf{D}emande \textbf{T}ardive au \textbf{S}ervice \\
+		\hline
+		DTSF & \textbf{D}emande Tardive au Service au Fil de l'eau \\
+		\hline
+		EF & \textbf{E}ntreprise \textbf{F}erroviaire \\
+		\hline
+		GESICO & \textbf{GE}stion des \textbf{SI}llons \textbf{CO}
+		mmandés \\
+		\hline
+		GI & \textbf{G}estionnaire d'\textbf{I}nfrastructure \\
+		\hline
+		GID & \textbf{G}estionnaire d'\textbf{I}nfrastructure \textbf{D
+		}élégué \\
+		\hline
+		HOUAT & \textbf{H}oraires \textbf{U}tiles \textbf{A} \textbf{T
+		}ous \\
+		\hline
+		SDM & \textbf{S}illon de \textbf{D}erniere \textbf{M}inute \\
+		\hline
+		TCT & \textbf{T}ype de \textbf{C}onvoi \textbf{T}rafic \\
+		\hline
+		THOR & \textbf{T}racé des \textbf{HOR}aires \\
+		\hline
+		TTH & \textbf{T}rain \textbf{T}ype \textbf{H}ouat \\
+		\hline
+		UI & \textbf{U}tilisateur \textbf{I}nfrastructure \\
+		\hline
+		VDS & \textbf{V}ie \textbf{D}u \textbf{S}illon \\
+		\hline
+		ECS & \textbf{E}tat \textbf{C}ourant du \textbf{S}illon \\
+		\hline
+		SJE & \textbf{S}illon \textbf{J}our à l'\textbf{E}tude \\
+		\hline
+	\end{tabular}
+\end{table}
 
+\section{Conformité des navigateurs WEB}
+
+\begin{itemize}
+	\item Navigateur : Internet Explorer 8 ou Firefox 3.5.7 \\
+	\textit{L'application est développée pour ces 2 types de navigateurs et pour les 
+	versions indiquées (en version 32bits).}
+	\item OS : Windows XP \\
+	\textit{L’application est développée pour Windows XP.}
+	\item Acrobat Reader 7.0 ou supérieur.
+\end{itemize}
 
 \end{document}
